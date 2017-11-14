@@ -12,11 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+// 	Schema::create('forcast',function($ myTable) {
+// $myTable ->increments('id');
+// $myTable ->string('name');
+// $myTable ->string('lastname',30);
+
+// $myTable ->string('description',500);
+// });
+     return view('welcome');
+
 });
 Route::get('may', function () {
     return 'welcome may ';
 });
-Route::get('m', function () {
-    return 'welcome may almasalmah ';
-});
+// Route::get('city', function () {
+//     return view('city');
+// });
