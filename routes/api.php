@@ -16,6 +16,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-// Route::middleware('http://api.openweathermap.org/data/2.5/weather?q=Amman&appid=423047100cc422f12720b052f61c438a')->get('/city', function (Request $request) {
+// Route::middleware('http://api.openweathermap.org/data/2.5/forecast?q=Amman&APPID=1d542eac83eaad6d439c47ba406ba70e')->get('/city', function (Request $request) {
 //     return $request->city();
 // });

@@ -22,9 +22,15 @@ Route::get('/', function () {
      return view('welcome');
 
 });
-Route::get('may', function () {
-    return 'welcome may ';
-});
+// Route::get('may', function () {
+//     return 'welcome may ';
+// });
 // Route::get('city', function () {
 //     return view('city');
 // });
+Route::get('/city', function () {
+    return view('city ');
+});
+Route::post('/city', function () {
+    return view('city ');
+});
